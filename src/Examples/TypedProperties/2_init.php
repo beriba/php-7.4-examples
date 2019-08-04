@@ -7,8 +7,8 @@ class Sth {
 
 $sth = new Sth();
 
-# this will return 0
+# this will return int(0)
 var_dump($sth->a);
 
-# this will return 1
+# this will return int(1)
 var_dump($sth->b);

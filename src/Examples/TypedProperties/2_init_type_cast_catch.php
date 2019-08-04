@@ -12,4 +12,8 @@ try {
     # this won't be executed because the error was thown
     # at compile time
     var_dump($t->getMessage());
+} finally {
+    # this won't be executed because the error was thown
+    # at compile time
+    var_dump('finally');
 }

@@ -11,6 +11,6 @@ $sth = new Sth();
 var_dump($sth->a);
 
 # this will return TypeError
-# typed properties MUST have value before using them
+# typed properties MUST have value before using them.
 # it can be null, see: 4_nullable_init.php
 var_dump($sth->b);
